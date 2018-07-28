@@ -1456,11 +1456,17 @@ a {
 .probootstrap_navbar .navbar-toggler:focus {
     outline: none;
 }
-
 .carousel-item img {
-    width: 100%
+    width: 100%;
+    object-fit: cover;
 }
-
+@media (max-width: 767px) {
+    .carousel-item img {
+        width: 100%;
+        object-fit: cover;
+        height:500px;
+    }
+}
 .probootstrap_navbar>.container {
     position: relative;
 }
@@ -1474,6 +1480,7 @@ a {
 }
 
 .probootstrap_navbar .navbar-toggler i {
+    color:#fff;
     font-size: 30px;
 }
 
@@ -2030,4 +2037,12 @@ a {
 .probootstrap-animate {
     opacity: 0;
     visibility: hidden;
+}
+
+@media (max-width: 767px) {
+    .logo {
+        width: 80px;
+        object-fit: cover;
+        height:100%;
+    }
 }
