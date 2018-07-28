@@ -304,7 +304,7 @@
 .probootstrap_feature-v1 .media-body .heading,
 .probootstrap_feature-v2 .media-body .heading {
     font-size: 20px;
-    font-family: "Montserrat", Arial, sans-serif;
+    font-family: "Lato", Arial, sans-serif;
 }
 
 .probootstrap_feature-v1.probootstrap_feature-circle,
@@ -2045,4 +2045,7 @@ a {
         object-fit: cover;
         height:100%;
     }
+}
+body{
+    font-family: "Lato",Arial, Helvetica, sans-serif;
 }
